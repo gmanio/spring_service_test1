@@ -10,7 +10,8 @@ import java.io.Serializable;
 
 @Entity
 @Table(name="tb_test")
-public class RepoTest implements Serializable{
+public class User{
+
     @Id
     @GeneratedValue(strategy = GenerationType.AUTO)
     private int idx;
@@ -20,6 +21,12 @@ public class RepoTest implements Serializable{
     private String phone;
     @Column(name = "address", nullable = false)
     private String address;
+
+    public User(String name, String phone, String address) {
+        this.name = name;
+        this.phone = phone;
+        this.address = address;
+    }
 
     public int getIdx() {
         return idx;

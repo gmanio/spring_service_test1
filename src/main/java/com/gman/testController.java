@@ -1,7 +1,7 @@
 package com.gman;
 
 
-import com.gman.repository.RepoTest;
+import com.gman.repository.User;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestParam;
@@ -21,8 +21,9 @@ public class TestController {
     }
 
     @RequestMapping("/getDB")
-    public @ResponseBody List<RepoTest> getUserList() {
+    public @ResponseBody List<User> getUserList() {
 
         return userRepository.findAll();
     }
+
 }
