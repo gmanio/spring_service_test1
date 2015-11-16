@@ -2,7 +2,6 @@ package com.gman.repository;
 
 
 import javax.persistence.*;
-import java.io.Serializable;
 
 /**
  * Created by gmanpark on 2015. 11. 10..
@@ -14,7 +13,7 @@ public class User{
 
     @Id
     @GeneratedValue(strategy = GenerationType.AUTO)
-    private int idx;
+    private long idx;
     @Column(name = "name", nullable = false)
     private String name;
     @Column(name = "phone", nullable = false)
@@ -22,17 +21,11 @@ public class User{
     @Column(name = "address", nullable = false)
     private String address;
 
-    public User(String name, String phone, String address) {
-        this.name = name;
-        this.phone = phone;
-        this.address = address;
-    }
-
-    public int getIdx() {
+    public long getIdx() {
         return idx;
     }
 
-    public void setIdx(int idx) {
+    public void setIdx(long idx) {
         this.idx = idx;
     }
 

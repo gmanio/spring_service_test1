@@ -16,25 +16,22 @@ public class UserServiceImpl implements UserService{
     private UserRepository userRepository;
 
     @Override
-    public List findAll() {
+    public List<User> findAll() {
         return userRepository.findAll();
     }
 
     @Override
-    public com.gman.repository.User create(String name, String phone, String address) {
-        User user = new User(name, phone, address);
-
-        userRepository.save(user);
-        return null;
+    public User create(User user) {
+        return userRepository.save(user);
     }
 
     @Override
-    public com.gman.repository.User update(com.gman.repository.User forum) {
-        return null;
+    public void update(User user) {
+
     }
 
     @Override
-    public void delete(int id) {
-
+    public void delete(Long id) {
+        userRepository.delete(id);
     }
 }
