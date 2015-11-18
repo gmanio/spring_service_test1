@@ -38,8 +38,4 @@ public class JPAcrud {
         return userServiceImpl.findAll();
     }
 
-    @RequestMapping("/update")
-    public
-
-
 }
