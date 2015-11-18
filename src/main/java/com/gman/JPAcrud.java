@@ -17,9 +17,8 @@ public class JPAcrud {
     @Autowired
     UserServiceImpl userServiceImpl;
 
-
     @RequestMapping("/save")
-    public void insert(){
+    public void insert() {
         User saveUser = new User();
         saveUser.setName("PPPP");
         saveUser.setPhone("RRRRRRR");
@@ -29,12 +28,12 @@ public class JPAcrud {
     }
 
     @RequestMapping("/delete/{id}")
-    public void delete(@PathVariable("id") Long id){
+    public void delete(@PathVariable("id") Long id) {
         userServiceImpl.delete(id);
     }
 
     @RequestMapping("/findall")
-    public @ResponseBody List<User> selectAll(){
+    public @ResponseBody List<User> selectAll() {
         return userServiceImpl.findAll();
     }
 
