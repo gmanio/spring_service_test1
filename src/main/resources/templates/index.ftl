@@ -5,6 +5,7 @@
     <title></title>
 </head>
 <body>
-    this is html
+    this is htmlsdfsdfsdf
+    <script src="/js/main.js"></script>
 </body>
 </html>

@@ -11,6 +11,8 @@ import org.springframework.web.bind.annotation.RequestMapping;
 public class ServiceController {
     @RequestMapping("/index")
     public String index(Model model) {
+
+
         return "/index";
     }
 }
