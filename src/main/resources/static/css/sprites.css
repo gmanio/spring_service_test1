@@ -1,0 +1,413 @@
+/*
+Icon classes can be used entirely standalone. They are named after their original file names.
+
+```html
+<!-- `display: block` sprite -->
+<div class="icon-home"></div>
+
+<!-- `display: inline-block` sprite -->
+<img class="icon-home" />
+```
+*/
+.icon-bg_search_filter {
+  background-image: url(../img/sprite.png);
+  background-position: 0px 0px;
+  width: 720px;
+  height: 280px;
+}
+.icon-bg_search_obs {
+  background-image: url(../img/sprite.png);
+  background-position: 0px -280px;
+  width: 348px;
+  height: 108px;
+}
+.icon-btn_layer_close {
+  background-image: url(../img/sprite.png);
+  background-position: -524px -472px;
+  width: 28px;
+  height: 28px;
+}
+.icon-bu_arrow_down {
+  background-image: url(../img/sprite.png);
+  background-position: -556px -340px;
+  width: 24px;
+  height: 14px;
+}
+.icon-bu_arrow_recommand_more {
+  background-image: url(../img/sprite.png);
+  background-position: -708px -472px;
+  width: 12px;
+  height: 20px;
+}
+.icon-bu_arrow_up {
+  background-image: url(../img/sprite.png);
+  background-position: -580px -340px;
+  width: 24px;
+  height: 14px;
+}
+.icon-deallist_bottom_freedom {
+  background-image: url(../img/sprite.png);
+  background-position: -628px -354px;
+  width: 58px;
+  height: 18px;
+}
+.icon-deallist_hotel_star {
+  background-image: url(../img/sprite.png);
+  background-position: -576px -452px;
+  width: 98px;
+  height: 18px;
+}
+.icon-deallist_lbll_type1 {
+  background-image: url(../img/sprite.png);
+  background-position: -576px -388px;
+  width: 100px;
+  height: 32px;
+}
+.icon-deallist_lbll_type2 {
+  background-image: url(../img/sprite.png);
+  background-position: -82px -524px;
+  width: 82px;
+  height: 32px;
+}
+.icon-deallist_lbll_type3 {
+  background-image: url(../img/sprite.png);
+  background-position: -246px -524px;
+  width: 82px;
+  height: 32px;
+}
+.icon-deallist_lbll_type4 {
+  background-image: url(../img/sprite.png);
+  background-position: -576px -420px;
+  width: 82px;
+  height: 32px;
+}
+.icon-deallist_lbll_type5 {
+  background-image: url(../img/sprite.png);
+  background-position: -164px -524px;
+  width: 82px;
+  height: 32px;
+}
+.icon-deallist_lbll_type6 {
+  background-image: url(../img/sprite.png);
+  background-position: 0px -524px;
+  width: 82px;
+  height: 32px;
+}
+.icon-deallist_lblr_type1 {
+  background-image: url(../img/sprite.png);
+  background-position: -492px -388px;
+  width: 84px;
+  height: 84px;
+}
+.icon-deallist_mask_type1 {
+  background-image: url(../img/sprite.png);
+  background-position: -530px -280px;
+  width: 100px;
+  height: 60px;
+}
+.icon-deallist_mask_type2 {
+  background-image: url(../img/sprite.png);
+  background-position: -132px -388px;
+  width: 132px;
+  height: 136px;
+}
+.icon-deallist_mask_type3 {
+  background-image: url(../img/sprite.png);
+  background-position: -264px -388px;
+  width: 114px;
+  height: 114px;
+}
+.icon-deallist_mask_type4 {
+  background-image: url(../img/sprite.png);
+  background-position: -488px -354px;
+  width: 140px;
+  height: 28px;
+}
+.icon-ico_arrow_down_searchfilter {
+  background-image: url(../img/sprite.png);
+  background-position: -604px -340px;
+  width: 22px;
+  height: 14px;
+}
+.icon-ico_arrow_down_searchfilter_disabled {
+  background-image: url(../img/sprite.png);
+  background-position: -626px -340px;
+  width: 22px;
+  height: 14px;
+}
+.icon-ico_arrow_left_gray {
+  background-image: url(../img/sprite.png);
+  background-position: -58px -592px;
+  width: 22px;
+  height: 36px;
+}
+.icon-ico_arrow_left_orange {
+  background-image: url(../img/sprite.png);
+  background-position: -26px -628px;
+  width: 24px;
+  height: 38px;
+}
+.icon-ico_arrow_right_gray {
+  background-image: url(../img/sprite.png);
+  background-position: -36px -592px;
+  width: 22px;
+  height: 36px;
+}
+.icon-ico_arrow_right_orange {
+  background-image: url(../img/sprite.png);
+  background-position: 0px -628px;
+  width: 26px;
+  height: 38px;
+}
+.icon-ico_arrow_under_gray_associate_keywords {
+  background-image: url(../img/sprite.png);
+  background-position: -682px -316px;
+  width: 26px;
+  height: 14px;
+}
+.icon-ico_arrow_up_gray_associate_keywords {
+  background-image: url(../img/sprite.png);
+  background-position: -530px -340px;
+  width: 26px;
+  height: 14px;
+}
+.icon-ico_arrow_up_searchfilter {
+  background-image: url(../img/sprite.png);
+  background-position: -648px -340px;
+  width: 22px;
+  height: 14px;
+}
+.icon-ico_btn_close_search_auto_complete {
+  background-image: url(../img/sprite.png);
+  background-position: -492px -472px;
+  width: 32px;
+  height: 30px;
+}
+.icon-ico_cart {
+  background-image: url(../img/sprite.png);
+  background-position: -198px -556px;
+  width: 34px;
+  height: 34px;
+}
+.icon-ico_check_delivery_pack_off {
+  background-image: url(../img/sprite.png);
+  background-position: -232px -556px;
+  width: 34px;
+  height: 34px;
+}
+.icon-ico_check_delivery_pack_on {
+  background-image: url(../img/sprite.png);
+  background-position: -266px -556px;
+  width: 34px;
+  height: 34px;
+}
+.icon-ico_check_orange {
+  background-image: url(../img/sprite.png);
+  background-position: -686px -354px;
+  width: 22px;
+  height: 16px;
+}
+.icon-ico_check_searchfilter {
+  background-image: url(../img/sprite.png);
+  background-position: -634px -472px;
+  width: 26px;
+  height: 22px;
+}
+.icon-ico_check_searchfilter_white {
+  background-image: url(../img/sprite.png);
+  background-position: -660px -472px;
+  width: 24px;
+  height: 22px;
+}
+.icon-ico_circle_plus {
+  background-image: url(../img/sprite.png);
+  background-position: 0px -592px;
+  width: 36px;
+  height: 36px;
+}
+.icon-ico_delivery_pack_off {
+  background-image: url(../img/sprite.png);
+  background-position: -676px -388px;
+  width: 44px;
+  height: 30px;
+}
+.icon-ico_delivery_pack_on {
+  background-image: url(../img/sprite.png);
+  background-position: -658px -420px;
+  width: 44px;
+  height: 30px;
+}
+.icon-ico_keyword_close {
+  background-image: url(../img/sprite.png);
+  background-position: -670px -340px;
+  width: 14px;
+  height: 14px;
+}
+.icon-ico_location_orange {
+  background-image: url(../img/sprite.png);
+  background-position: -164px -556px;
+  width: 34px;
+  height: 34px;
+}
+.icon-ico_new {
+  background-image: url(../img/sprite.png);
+  background-position: -674px -452px;
+  width: 14px;
+  height: 18px;
+}
+.icon-ico_recommand_adult {
+  background-image: url(../img/sprite.png);
+  background-position: -378px -388px;
+  width: 114px;
+  height: 114px;
+}
+.icon-ico_recommand_pconly {
+  background-image: url(../img/sprite.png);
+  background-position: -348px -354px;
+  width: 140px;
+  height: 28px;
+}
+.icon-ico_recommand_soldout {
+  background-image: url(../img/sprite.png);
+  background-position: 0px -388px;
+  width: 132px;
+  height: 136px;
+}
+.icon-ico_reset_searchfilter {
+  background-image: url(../img/sprite.png);
+  background-position: -606px -472px;
+  width: 28px;
+  height: 24px;
+}
+.icon-ico_result_no {
+  background-image: url(../img/sprite.png);
+  background-position: -630px -280px;
+  width: 52px;
+  height: 54px;
+}
+.icon-ico_search {
+  background-image: url(../img/sprite.png);
+  background-position: -682px -280px;
+  width: 36px;
+  height: 36px;
+}
+.icon-ico_search_back {
+  background-image: url(../img/sprite.png);
+  background-position: -120px -556px;
+  width: 44px;
+  height: 34px;
+}
+.icon-ico_search_del {
+  background-image: url(../img/sprite.png);
+  background-position: -480px -502px;
+  width: 20px;
+  height: 20px;
+}
+.icon-ico_search_detail {
+  background-image: url(../img/sprite.png);
+  background-position: -580px -472px;
+  width: 26px;
+  height: 26px;
+}
+.icon-ico_search_detail_close {
+  background-image: url(../img/sprite.png);
+  background-position: -552px -472px;
+  width: 28px;
+  height: 28px;
+}
+.icon-ico_search_latest_del {
+  background-image: url(../img/sprite.png);
+  background-position: -702px -420px;
+  width: 18px;
+  height: 18px;
+}
+.icon-ico_search_latest_no {
+  background-image: url(../img/sprite.png);
+  background-position: -80px -592px;
+  width: 6px;
+  height: 36px;
+}
+.icon-ico_sub_category {
+  background-image: url(../img/sprite.png);
+  background-position: -684px -340px;
+  width: 14px;
+  height: 14px;
+}
+.icon-ico_switch_off {
+  background-image: url(../img/sprite.png);
+  background-position: -60px -556px;
+  width: 60px;
+  height: 36px;
+}
+.icon-ico_switch_on {
+  background-image: url(../img/sprite.png);
+  background-position: 0px -556px;
+  width: 60px;
+  height: 36px;
+}
+.icon-logo_ean {
+  background-image: url(../img/sprite.png);
+  background-position: -348px -280px;
+  width: 182px;
+  height: 74px;
+}
+.icon-num_popular1 {
+  background-image: url(../img/sprite.png);
+  background-position: -456px -502px;
+  width: 24px;
+  height: 20px;
+}
+.icon-num_popular10 {
+  background-image: url(../img/sprite.png);
+  background-position: -264px -502px;
+  width: 24px;
+  height: 20px;
+}
+.icon-num_popular2 {
+  background-image: url(../img/sprite.png);
+  background-position: -312px -502px;
+  width: 24px;
+  height: 20px;
+}
+.icon-num_popular3 {
+  background-image: url(../img/sprite.png);
+  background-position: -336px -502px;
+  width: 24px;
+  height: 20px;
+}
+.icon-num_popular4 {
+  background-image: url(../img/sprite.png);
+  background-position: -360px -502px;
+  width: 24px;
+  height: 20px;
+}
+.icon-num_popular5 {
+  background-image: url(../img/sprite.png);
+  background-position: -432px -502px;
+  width: 24px;
+  height: 20px;
+}
+.icon-num_popular6 {
+  background-image: url(../img/sprite.png);
+  background-position: -408px -502px;
+  width: 24px;
+  height: 20px;
+}
+.icon-num_popular7 {
+  background-image: url(../img/sprite.png);
+  background-position: -684px -472px;
+  width: 24px;
+  height: 20px;
+}
+.icon-num_popular8 {
+  background-image: url(../img/sprite.png);
+  background-position: -288px -502px;
+  width: 24px;
+  height: 20px;
+}
+.icon-num_popular9 {
+  background-image: url(../img/sprite.png);
+  background-position: -384px -502px;
+  width: 24px;
+  height: 20px;
+}
