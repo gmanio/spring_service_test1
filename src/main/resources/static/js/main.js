@@ -1,3 +1,5 @@
 (function(){
-    console.log('test');
+    var ns = ns || {};
+
+    ns.util = ns.util || {};
 })();

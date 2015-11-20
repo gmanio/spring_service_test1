@@ -6,10 +6,11 @@
     <link rel="stylesheet" href="/css/sprites.css"/>
     <link rel="stylesheet" href="/css/reset.css"/>
     <link rel="stylesheet" href="/css/style.css"/>
+    <script src="/js/lib/jquery-2.1.4.min.js"></script>
 </head>
 <body>
-    this is htmlsdfsdfsdf
-    <div class="icon-bg_search_filter"></div>
+    Test
     <script src="/js/main.js"></script>
+    <script src="/js/page/index.js"></script>
 </body>
 </html>

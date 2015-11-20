@@ -19,7 +19,7 @@ code/
 cargo-installs/
 atlassian-ide-plugin.xml
 deploy/
-build/
-.gradle/
+build
+.gradle
 
 node_modules/
