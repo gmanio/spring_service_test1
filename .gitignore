@@ -20,6 +20,7 @@ cargo-installs/
 atlassian-ide-plugin.xml
 deploy/
 build
-.gradle
 
 node_modules/
+
+.gradle
