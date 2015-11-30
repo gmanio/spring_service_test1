@@ -17,7 +17,7 @@ public class Schedule {
     @Autowired
     UserServiceImpl userServiceImpl;
 
-//    @Scheduled(fixedRate=5000)
+    //@Scheduled(fixedRate=5000)
     public void insert() {
         User saveUser = new User();
         saveUser.setName("PPPP");
@@ -27,11 +27,8 @@ public class Schedule {
         userServiceImpl.create(saveUser);
     }
 
-    @Value("${gman.name}")
-    String name;
-
-    @Scheduled(fixedRate=5000)
-    public void printProperty(){
-        logger.debug(name);
+    @Scheduled(fixedRate = 5000)
+    public void printProperty() {
+        logger.debug("SSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSS");
     }
 }
