@@ -24,8 +24,6 @@ public class ServiceController {
     @RequestMapping(value="/index", method = RequestMethod.GET)
     public String index(Model model) {
 
-        model.addAttribute("userList", userRepository.findAll());
-
         return "index";
     }
 

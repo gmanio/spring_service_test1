@@ -1,5 +1,16 @@
-(function(){
-    var ns = ns || {};
+class Main{
+    constructor(elTarget, htOption) {
+        this.elTarget = elTarget;
+        this.init(htOption);
+    }
 
-    ns.util = ns.util || {};
-})();
+    init(htOption) {
+        console.log('test');
+        console.log("ttestdf");
+        this.sendDebugger();
+    }
+
+    sendDebugger(){
+        debugger;
+    }
+}
